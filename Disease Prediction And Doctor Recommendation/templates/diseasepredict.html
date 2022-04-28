@@ -1,0 +1,42 @@
+{% include 'homepatient1.html' %}
+<body>
+  <div
+    id="prediction"
+    style="
+      position: absolute;
+      top: 165px;
+      right: 10px;
+      left: 600px;
+      height: 300px;
+      width: 600px;
+      text-align: center;
+      /* background-color: rgb(34, 185, 255); */
+      justify-content: center;
+      align-items: center;
+    "
+  >
+    <form>
+      <span
+        style="
+          font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+          font-size: 28px;
+          color: rgb(0, 0, 0);
+          position:absolute;
+          left: 140px;
+          top: 40px;
+          align-items: center;
+          justify-content: center;
+          justify-items: center;
+          border: 1px solid #78A9FD;
+          border-width: 10px;
+          padding: 20px 20px;
+        "
+      >
+        There are chances you may have <b>{{disease[0]}}</b>. So, consult with <br> <b>{{doctor}}</b>.Contact the receptionist before visiting.<br>Contact No:9845124563.
+      </span>
+      <br />
+
+    </form>
+    
+  </div>
+</body>
